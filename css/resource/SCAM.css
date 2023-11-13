@@ -1,0 +1,24 @@
+#spin {
+  color:#1ABC9C;
+}
+#spin:after {
+  content:"";
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% { content:"SCAM";Â }
+  50% { content:"FRAUD";Â }
+ 100% { content: "CHEAT"; }
+}
+#spinx {
+  color:#1ABC9C;
+}
+#spinx:after {
+  content:"";
+  animation: spinx 2s linear infinite;
+}
+@keyframes spinx {
+  0% { content:"Male Escort";Â }
+  50% { content:"Call Boy";Â }
+ 100% { content: "Play Boy"; }
+}

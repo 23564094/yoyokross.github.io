@@ -1,0 +1,49 @@
+.section {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  position: relative;
+  min-height: 400px;
+}
+
+/* SECTION SPECIFIC STYLINGS*/
+
+#s9 {
+  background: url("/img/cover.jpg");
+  background-size: cover;
+}
+
+
+#s10 {
+  background: url("/img/bgone.jpg");
+  background-size: cover;
+}
+
+
+#s1 {
+  background: url("https://desicallgirl.mobie.in/playboy/1.jpg");
+  background-size: cover;
+}
+
+#s2 {
+  background: url("https://desicallgirl.mobie.in/playboy/2.jpg");
+  background-size: cover;
+}
+#s3 {
+  background: url("https://desicallgirl.mobie.in/playboy/3.jpg");
+  background-size: cover;
+}
+
+#s4 {
+  background: url("https://desicallgirl.mobie.in/playboy/last.jpg");
+  background-size: cover;
+}
+
+
+#s11 {
+  background: linear-gradient(
+    90deg,
+    rgba(44, 69, 135, 1) 0%,
+    rgba(76, 112, 199, 1) 35%,
+    rgba(0, 255, 229, 1) 100%
+  );
