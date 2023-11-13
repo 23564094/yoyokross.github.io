@@ -1,25 +1,16 @@
 <?php
-require 'IP2Location.php';
-
-$loc = new IP2Location('databases/IP-COUNTRY.BIN', IP2Location::FILE_IO);
-$record = $loc->lookup($_SERVER['REMOTE_ADDR'], IP2Location::ALL);
-
-if($record == 'BD') {
-	header('HTTP/1.1 301 Moved Permanently');
-	header('Location: https://yoyokross.github.io/bn');
-	exit;
+require_once('geoplugin.class.php');
+$geoplugin = new geoPlugin();
+$geoplugin->locate();
+// create a variable for the country code
+$var_country_code = $geoplugin->countryCode;
+// redirect based on country code:
+if ($var_country_code == "PK") {
+   header('Location: https://yoyokross.github.io/pk');
 }
-
-if($record == 'PK') {
-	header('HTTP/1.1 301 Moved Permanently');
-	header('Location: https://yoyokross.github.io/pk');
-	exit;
+else if ($var_country_code == "BD") {
+   header('Location: https://yoyokross.github.io/bn');
+} else {
+   header('Location: https://yoyokross.github.io/en');
 }
-
-if($record == 'IN') {
-	header('HTTP/1.1 301 Moved Permanently');
-	header('Location: https://yoyokross.github.io/en');
-	exit;
-}
-
 ?>
