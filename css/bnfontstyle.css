@@ -5,6 +5,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Atma&display=swap');
 
+  .dropdown-item {
+ font-family: 'Mina', sans-serif; }
+.nav-link dropdown-toggle { font-family: 'Alkatra',sans-serif; }
+
   .mina {
  font-family: 'Mina', sans-serif; }
 .alkatra { font-family: 'Alkatra',sans-serif; }
