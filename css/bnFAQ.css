@@ -11,24 +11,7 @@
 .container {
     font-family: 'Mina', sans-serif; }
 
-.container{
-    margin: 0 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    background-color: #fff;
-    border-radius: 25px;
-    padding: 45px 90px 45px;
-    max-width: 60em;
-    width: 100%;
-    box-shadow: 3px 3px 15px #00000040,
-                -3px -3px 15px #00000040;
-}
 
-.container h1{
-    color: rgb(255, 0, 0);
-    text-align: center;
-}
 
 .container .tab{
     position: relative;
