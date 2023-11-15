@@ -1,134 +1,52 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
-  .content {
+  .A {
  font-family: 'Mina', sans-serif; }
-.tab { font-family: 'Alkatra',sans-serif; }
+.Q { font-family: 'Alkatra',sans-serif; }
 
-.container {
-    font-family: 'Mina', sans-serif; }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.Q {
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+    border-radius: 2px;
 }
 
-body{
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #e7e7e7;
+.active, .Q:hover {
+  background-color: black;
+  color: dodgerblue;
 }
 
-.container{
-    margin: auto;
-    flex-direction: column;
-    gap: 1em;
-    border-radius: 25px;
-    padding: 45px 90px 45px;
-    max-width: 60em;
-    width: 100%;
-    box-shadow: 3px 3px 15px #00000040,
-                -3px -3px 15px #00000040;
+.Q:after {
+  content: '\1F615';
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
 }
 
-.container h1{
-    color: dodgerblue;
+.active:after {
+   content: "\1F618";
+    font-weight: bold;
+  float:right;
+  margin-left:5px;
 }
 
-.container .tab{
-    position: relative;
-    background-color: #181818;
-    padding: 0 20px 20px;
-    border-radius: 25px;
-    overflow: hidden;
-}
-
-.container .tab input{
-    appearance: none;
-}
-
-.container .tab label{
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-
-.container .tab label::after{
-    content: '';
-    position: absolute;
-    right: 20px;
-    font-size: 2em;
-    color: rgba(221, 0, 0, 0.2)
-}
-
-.container .tab:hover label::after{
-    color: black;
-}
-
-.container .tab input:checked ~ label::after{
-    color: rgb(37, 37, 37);
-}
-
-.container .tab label h2{
-    width: 1.5em;
-    height: 1.5em;
-    background-color: #252525;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: dodgerblue;
-    font-size: 1.5em;
-    border-radius: 25px;
-    margin-right: .5em;
-}
-
-.container .tab label h3{
-    position: relative;
-    font-weight: 500;
-    color: #ffffff;
-    z-index: 5;
-}
-
-.container .tab .content{
-    max-height: 0;
-    transition: .5s;
-    overflow: hidden;
-}
-
-.container .tab input:checked ~ .content{
-    max-height: 100vh;
-}
-
-
-.container .tab .content p {
-    position: relative;
-    padding: 10px 0;
-    color: #000000;
-    z-index: 10;
-}
-
-.container .tab input:checked ~ label h2{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: rgba(255,255,255,0.2);
-    font-size: 8em;
-    justify-content: flex-end;
-}
-
-.container .tab input:checked ~ label h3{
-    background-color: dodgerblue ;
-    border-radius: 10px;
-    padding: .5em .3em;
-}
-
-.container .tab input:checked ~ .content p{
-    color: dodgerblue;
-    font-size: larger;
-    padding-top: .8em;
+.A {
+  color: white;
+  background-color:  #333;
+    padding-left: 10px;
+        padding-right: 10px;
+  border: none;
+  text-align: left;
+  outline: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
