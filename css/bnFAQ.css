@@ -2,16 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
-
-
   .content {
  font-family: 'Mina', sans-serif; }
 .tab { font-family: 'Alkatra',sans-serif; }
 
 .container {
     font-family: 'Mina', sans-serif; }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #e7e7e7;
+}
 
+.container{
+    margin: auto;
+    flex-direction: column;
+    gap: 1em;
+    border-radius: 25px;
+    padding: 45px 90px 45px;
+    max-width: 60em;
+    width: 100%;
+    box-shadow: 3px 3px 15px #00000040,
+                -3px -3px 15px #00000040;
+}
+
+.container h1{
+    color: dodgerblue;
+}
 
 .container .tab{
     position: relative;
