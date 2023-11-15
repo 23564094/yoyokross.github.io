@@ -24,19 +24,6 @@
   color: dodgerblue;
 }
 
-.Q:after {
-  content: '\1F615';
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-   content: "\1F618";
-    font-weight: bold;
-  float:right;
-  margin-left:5px;
-}
 
 .A {
   color: white;
