@@ -11,14 +11,10 @@
     <!-- Favicon -->
     <link href="/img/favicon.png" rel="icon">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- EXTRA Resource -->
-    <link href="/css/resource/SCAM.css" rel="stylesheet">
+
+    <link href="/css/resource/SCAMbn.css" rel="stylesheet">
     <link href="/css/Boder.css" rel="stylesheet">
-    <link href="/css/resource/FAQ.css" rel="stylesheet">
     <link href="/css/resource/dividor.css" rel="stylesheet">
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -30,7 +26,8 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
-
+        <link href="/css/bnfontstyle.css" rel="stylesheet">
+            <link href="/css/bnFAQ.css" rel="stylesheet">
     <!-- Template Stylesheet -->
     <link href="/css/style.css" rel="stylesheet">
 </head>
@@ -49,7 +46,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
         <a href="/" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
-            <h2 class="mb-2 text-white">ᴘʟᴀʏʙᴏʏ's</h2>
+            <h2 class="mb-2 text-white"><img src="https://yoyokross.github.io/hireman.png" alt="logo" width="120" height="40"></h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -57,44 +54,65 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-regular fa-circle-user" style="color: #005eff;"></i> <b>account</b></a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-regular fa-circle-user" style="color: #005eff;"></i> <b>একাউন্টস</b></a>
                     <div class="dropdown-menu m-0">
-                        <a href="/Dashboard" class="dropdown-item"><i class="fa-solid fa-right-to-bracket" style="color: #005eff;"></i> <b>Login</b></a>
-                    <a href="https://t.me/inditeam" class="dropdown-item"><i class="fa-solid fa-unlock-keyhole" style="color: #005eff;"></i> <b>Forget Password</b></a>
-                        <a href="/Dashboard/Desk" class="dropdown-item"><i class="fa-solid fa-chart-line" style="color: #005eff;"></i> <b>Demo Dashboard</b></a>
+                        <a href="/Dashboard" class="dropdown-item"><i class="fa-solid fa-right-to-bracket" style="color: #005eff;"></i> <b>লগইন ড্যাশবোর্ড</b></a>
+                    <a href="https://t.me/inditeam" class="dropdown-item"><i class="fa-solid fa-unlock-keyhole" style="color: #005eff;"></i> <b>পাসওয়ার্ড ভুলে গেছি </b></a>
+                        <a href="/Dashboard/Desk" class="dropdown-item"><i class="fa-solid fa-chart-line" style="color: #005eff;"></i> <b>ডেমো ড্যাশবোর্ড</b></a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-user-plus" style="color: #1ABC9C;"></i> <b>Registration</b></a>
+                    <a href="#"  class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-user-plus" style="color: #1ABC9C;"></i> <b>রেজিস্ট্রেশন </b></a>
                     <div class="dropdown-menu m-0">
-                        <a href="/RegisterFees" class="dropdown-item"><i class="fa-solid fa-indian-rupee-sign" style="color: #1ABC9C;"></i> <b>Package & Price</b></a>
-                    <a href="/Register" class="dropdown-item"><i class="fa-solid fa-handshake-angle" style="color: #1ABC9C;"></i> <b>Register NOW !</b></a>
+                        <a href="/bn/RegisterFees"  class="dropdown-item"><i class="fa-solid fa-indian-rupee-sign" style="color: #1ABC9C;"></i> <b>প্যাকেজ ও মূল্য </b></a>
+                    <a href="/bn/Register" class="dropdown-item"><i class="fa-solid fa-handshake-angle" style="color: #1ABC9C;"></i> <b>রেজিস্ট্রেশন ফর্ম </b></a>
                     </div>
             </div>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto py-0">
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-bolt fa-fade" style="color: #FF00FF;"></i> <b>Our Service</b></a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-bolt fa-fade" style="color: #FF00FF;"></i> <b>আমাদের সেবা </b></a>
                         <div class="dropdown-menu m-0">
-                    <a href="/BlogContent" class="dropdown-item"><i class="fa-solid fa-blog" style="color: #FF00FF;"></i> <b>Our Blogs</b></a>
-                            <a href="/Location" class="dropdown-item"><i class="fa-solid fa-location-dot" style="color: #FF00FF;"></i> <b>Service Location</b></a>
-                            <a href="/Hire" class="dropdown-item"><i class="fa-regular fa-heart" style="color: #FF00FF;"></i> <b>HIRE Male Escort</b></a>
+                    <a href="/BlogContent" class="dropdown-item"><i class="fa-solid fa-blog" style="color: #FF00FF;"></i> <b>ব্লগ</b></a>
+                            <a href="/Location"  class="dropdown-item"><i class="fa-solid fa-location-dot" style="color: #FF00FF;"></i> <b>সেবার স্থান</b></a>
+                            <a href="/Hire" class="dropdown-item"><i class="fa-regular fa-heart" style="color: #FF00FF;"></i> <b>কলবয় ভাড়া করুন</b></a>
                         </div>
                     </div>
                             </div>
-                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                                            <div class="collapse navbar-collapse" id="navbarCollapse">
                                 <div class="navbar-nav mx-auto py-0">
                                     <div class="nav-item dropdown">
-                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-regular fa-comments" style="color: #FF4500;"></i> <b>Contact Us</b></a>
+                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-regular fa-comments" style="color: #FF4500;"></i> <b>যোগাযোগ</b></a>
                                         <div class="dropdown-menu m-0">
-                                            <a href="/agreement" class="dropdown-item"><i class="fa-solid fa-pen-clip" style="color: #FF4500;"></i> <b>T&C</b></a>
-                                            <a href="/FAQ" class="dropdown-item"><i class="fa-regular fa-circle-question fa-flip" style="color: #FF4500;"></i> <b>FAQ</b></a>
-                                            <a href="/About" class="dropdown-item"><i class="fa-solid fa-users" style="color: #FF4500;"></i> <b>About Us</b></a>
-                                            <a href="/agreement" class="dropdown-item"><i class="fa-solid fa-lock" style="color: #FF4500;"></i> <b>Privacy Policy</b></a>
-                                            <a href="https://t.me/inditeam" class="dropdown-item"><i class="fa-solid fa-circle fa-fade" style="color: #ff3838;"></i> <b>Live Chat Support</b></a>
+                                            <a href="/agreement"  class="dropdown-item"><i class="fa-solid fa-pen-clip" style="color: #FF4500;"></i> <b>নিয়ম ও শর্তাবলী</b></a>
+                                            <a href="/agreement"  class="dropdown-item"><i class="fa-solid fa-lock" style="color: #FF4500;"></i> <b>গোপনীয়তা ও নীতি</b></a>
+                                      <a href="/About"  class="dropdown-item"><i class="fa-solid fa-users" style="color: #FF4500;"></i> <b>আমাদের সম্পর্কে</b></a>
+                                            <a href="https://t.me/inditeam" class="dropdown-item"><i class="fa-solid fa-circle fa-fade" style="color: #ff3838;"></i> <b>সরাসরি চ্যাট করুন</b></a>
                                         </div>
                                     </div>
-            </div>
+                                </div>
+                                                                                                                                                <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <div class="navbar-nav mx-auto py-0">
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-regular fa-circle-question fa-flip" style="color: #F1C40F;"></i> <b>প্রশ্ন ও উত্তর</b></a>
+                                        <div class="dropdown-menu m-0">
+                                            <a href="/agreement"  class="dropdown-item"><i class="fa-solid fa-receipt" style="color: #F1C40F;"></i><b>রেজিস্ট্রেশন  রিকোয়ারমেন্ট</b></a>
+                                            <a href="/About" class="dropdown-item"><i class="fa-solid fa-circle-info fa-spin fa-spin-reverse" style="color: #F1C40F;"></i><b>সকল প্রকার প্রশ্ন ও উত্তর <i class="fa-solid fa-arrow-pointer" style="color: #F1C40F;"></i> </b></a>
+                                        </div>
+                                    </div>
+                                </div>                                                                    
+                                                                                                                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <div class="navbar-nav mx-auto py-0">
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-language" style="color: #E74C3C;"></i> <b>ভাষা পরিবর্তন</b></a>
+                                        <div class="dropdown-menu m-0">
+                                            <a href="/agreement"  class="dropdown-item"><i class="fa-solid fa-e" style="color: #E74C3C;"></i><i class="fa-solid fa-n" style="color: #E74C3C;"></i> <b>English</b></a>
+                                            <a href="/About" class="dropdown-item"><i class="fa-solid fa-om" style="color: #E74C3C;"></i> <b>हिंदी </b></a>
+                                            <a href="https://t.me/inditeam" class="dropdown-item"><i class="fa-solid fa-bangladeshi-taka-sign" style="color: #E74C3C;"></i> <b>বাংলা</b></a>
+                                                                                        <a href="/agreement" class="dropdown-item"><i class="fa-solid fa-rupee-sign" style="color: #E74C3C;"></i> <b>اردو</b></a>
+                                        </div>
+                                    </div>
+                                </div>
             <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fab fa-telegram"></i>@iNDiTeam</h4>
         </div>
     </nav>
@@ -104,307 +122,142 @@
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative mb-5">
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="/img/Cover.jpg" alt="Cover">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown"></h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Satisfaction with <span class="text-primary">Growth Career</span>!</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">We are the first leading Playboy service in India with best customer support, We Believe Honesty is The Best Policy.</p>
-                                <a href="/RegisterFees" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Join Right NOW</a>
-                                <a href="https://t.me/inditeam" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact US</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="/img/Cover1.jpg" alt="Cover">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown"></h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Do You Need <span class="text-primary">Physical Satisfaction</span>?</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Is your loved one physically weak?  Contact us for physical needs, identity will be kept strictly confidential.</p>
-                                <a href="/Hire" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Hire Sex Partner</a>
-                                <a href="https://t.me/inditeam" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact US</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Carousel End -->
 
-
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container py-5">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h2 style="text-align:center;"><p style="color: #1abc9c ;">Explore<i class="fa-solid fa-exclamation fa-bounce"></i></p></h2>
-                <h6 style="text-align:center;"><p style="color: #1abc9c ;">ᴇxᴩʟᴏʀᴇ ᴍᴏʀᴇ ꜱᴇʀᴠɪᴄᴇꜱ</p></h6>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                        </div>
-                            <center><img class="img-fluid" src="/img/gif/1.png" alt="gn"  width="60" height="40"></center>
-                        <h4 class="mb-5"><span class="text-primary"><center>PAN INDIA PRESENCE</center></span></h4>
-                        <p><h6 style="text-align:center;"><p style="color: #1abc9c ;">Spread Every Corner Of Pan India, Including Small Cities And Every Parts Of India. Now It Is Going To Start In Bangladesh & Some Parts Of Pakistan Also.</p></h6>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                        </div>
-                 <center><img class="img-fluid" src="/img/gif/2.png" alt="gn"  width="60" height="40"></center>
-                        <h4 class="mb-5"><span class="text-primary"><center>AFFORDABLE STARTING</center></span></h4>
-                        <p><h6 style="text-align:center;"><p style="color: #1abc9c ;">We Offer An Affordable Starting For The New Comers. Once You Feel Comfortable, You Can Upgrade For Higher Plans. It Only Starts From 1,999Rs India Only & 4,999Rs Bangladesh & Pakistan</b></p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <center><img class="img-fluid" src="/img/gif/3.png" alt="gn"  width="60" height="40"></center>
-                        </div>
-                        <h4 class="mb-5"><span class="text-primary"><center>DEDICATED SUPPORT</center></span></h4>
-                        <p><h6 style="text-align:center;"><p style="color: #1abc9c ;">Upon Successful Registration, You Will Be Provided With A Dedicated Manager To Help You With Your Concerns. Our Executive Will Guide You Any Time</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <center><img class="img-fluid" src="/img/gif/4.png" alt="gn"  width="60" height="40"></center>
-                        </div>
-                        <h4 class="mb-5"><span class="text-primary"><center>PRIVACY PROTECTION</center></span></h4>
-                        <p><h6 style="text-align:center;"><p style="color: #1abc9c ;">We Don’t Share Our Member’s Privacy To Anyone And At Any Cost. All Our Member's Data Is 100% Safe & Secure. This Is Our Main Moto.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <center><img class="img-fluid" src="/img/gif/5.png" alt="gn"  width="60" height="40"></center>
-                        </div>
-                        <h4 class="mb-5"><span class="text-primary"><center>COLLABORATION</center></span></h4>
-                        <p><h6 style="text-align:center;"><p style="color: #1abc9c ;">Collaboration With Each And Every Departments And Various Hotels So That Service Will Be More Easy And Safe.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <center><img class="img-fluid" src="/img/gif/6.png" alt="gn"  width="60" height="40"></center>
-                        </div>
-                        <h4 class="mb-5"><span class="text-primary"><center>INFORMATION</center></span></h4>
-                        <p><h6 style="text-align:center;"><p style="color: #1abc9c ;">Before Sharing Contact Details Of Female Clients With Call Boy, We Manually Verify Each And Every Information Of Client's Profile.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-
-                  <!-- Join Requred -->
-    <div class="text-center wow fadeInUp">
-        <section id="s10" class="section  ">
-              <div class="text-center">
-    <h2 style="text-align:center;"><div class="divider">How to Become a</div><br><div class="divider"><span id="spinx"></div></p></h2>
-    <button class="FAQ"><b>Requirement for Get The Job ?</b></button>
-    <div class="panel">
-      <p>(1) Candidate should know Service Area Local Langue or ENGLISH.<br>
-        (2) Candidate should be well mannered and decent.<br>
-        (3) Candidate has to dressed up according to occasions.<br>
-        (4) Candidate needs to be clean and hygienic.<br>
-        (5) Candidate must not be addicted to drugs or alcohol.<br>
-        (6)  Candidate must not be affected by S.T.D.</p>
-    </div>
-    
-    <button class="FAQ">Choose Perfect Package</button>
-    <div class="panel">
-      <p>(1) <a href="/RegisterFees">Click here to </a>Choose a Perfect Package For You <br>(2) Register with our website <a href="/Register">by click here</a></p>
-    </div>
-    <button class="FAQ">Required Information</button>
-    <div class="panel">
-      <p>Submit Real Information<br>
-        Like Name, Email ,Phone, Birth of Date ,Upload Clear Photo/Selfe</p>
-    </div>
-    <button class="FAQ">Location Sharing</button>
-    <div class="panel">
-      <p>Input Service area address, Recheck Evereything,You will get calls from Female clients looking for Call Boy from your City.</p>
-    </div>
-    <button class="FAQ">Read Consent & Agreement?</button>
-    <div class="panel">
-      <p>Please read the Consent and Agreement before registering<br><a href="/agreement">click here to Read Consent & Agreements</a></p>
-    </div>
-    <button class="FAQ">Optional STEP</button>
-    <div class="panel">
-      <p>Attend the Meeting and get paid from the Client <br>
-        To get Better service and Dedicated help Contact our Agents</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Join Requred -->
-    <div class="text-center wow fadeInUp">
-        <section id="s10" class="section  ">
-              <div class="text-center">
-    <h2 style="text-align:center;"><p style="color: #db12ba ;"><div class="divider">#HIRE Male Escort <i class="fa-solid fa-question fa-shake"></i></div></p></h2>
-
-    <button class="FAQ">Step 1 - Search</button>
-    <div class="panel">
-      <p>Browse our website or click here to<a href="/Hire">Search for male escort.</a></p>
-    </div>
-    <button class="FAQ">Step 2 - Choose</button>
-    <div class="panel">
-      <p>Login your CRM  ( Customer relationship management ) then Check their profile status before contacting any call Boy</p>
-    </div>
-    <button class="FAQ">Step 3 - Availability</button>
-    <div class="panel">
-      <p>Shortlist atleast 3-4 escorts then contact them and ask for availability.</p>
-    </div>
-    <button class="FAQ">Step 4 - Exchange</button>
-    <div class="panel">
-      <p>Fix a appointment and exchange them your address</p>
-    </div>
-    <button class="FAQ">Step 5 - Review</button>
-    <div class="panel">
-      <p>Pay them after the job. and Post a review on their profile.</p>
-    </div>
-    <button class="FAQ">Support</button>
-    <div class="panel">
-      <p>To get Better service and Dedicated help Contact our Agents</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--  CB Join Requred --> 
 
     <!-- FAQ  -->
         <div class="text-center wow fadeInUp">
             <section id="s10" class="section  ">
                   <div class="text-center">
                 <div class="text-left">
-    <h2 style="text-align:left;"><p style="color: #db12ba ;"><div class="divider"># F A Q<i class="fa-solid fa-question fa-shake"></i></div></p></h2>
-    <button class="FAQ">What should I do, if I get scammed? somewhere else</button>
-    <div class="panel">
-      <p>Sorry, if you have been scammed by some other means, there is nothing you can do right now, so who you are paying the registration fee to, make sure to check carefully before paying, please don’t pay based on screenshots or videos sent by them. , may You want live proof to see live screen, Read a more detailed article on how to avoid scams,Please Cleck our Blog post</p>
+    <h2 style="text-align:left;"><p style="color: #db12ba ;"><div class="divider">প্রশ্ন ও উত্তর <i class="fa-solid fa-question fa-shake"></i></div></p></h2>
+    <button class="Q">প্রশ্ন (১) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : আমি অন্য কোথাও প্রতারিত হলে আমার কি করা উচিত? </button>
+    <div class="A">
+      <p>উত্তর : দুঃখিত, আপনি যদি অন্য কোনো উপায়ে প্রতারণার শিকার হয়ে থাকেন তবে আপনি এখন কিছুই করতে পারবেন না, তাই আপনি কাকে রেজিস্ট্রেশন ফি প্রদান করছেন, অর্থপ্রদান করার আগে সাবধানে যাচাই করে নিন, দয়া করে স্ক্যামার্ এর পাঠানো স্ক্রিনশট বা ভিডিওর ভিত্তিতে অর্থপ্রদান করবেন না . , আপনি লাইভ স্ক্রীন দেখতে লাইভ প্রুফ চাইতে পারেন, কীভাবে স্ক্যাম এড়াতে হয় সে সম্পর্কে আরও বিস্তারিত  পড়ুন, অনুগ্রহ করে আমাদের ব্লগ পোস্টে ক্লিক করুন</p>
     </div>
-    <button class="FAQ">Prove that You're Company is not Scammer?</button>
-    <div class="panel">
-      <p>Our company has been serving target Indians with respect for the last five years, we believe that faith is far from over, i will not buy the city of Mumbai with a little money, in fact if you take a service from us, you will not hesitate to take your decision next time. For any more information, message us on Telegram, hopefully from others, we can promise that you will get the best service</p>
+    <button class="Q">প্রশ্ন (২) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : প্রমাণ করুন  আপনার প্রতিষ্ঠান স্ক্যামার নয় ?</button>
+    <div class="A">
+      <p>আমাদের কোম্পানি গত দুই বছর ধরে ইন্ডিয়াতে সম্মানের সাথে সেবা করে এসেছে ,এবং আমরা খুব ভালো ভাবে দেখেছি বাংলাদেশেও ম্যাডাম দের অনেক বেশি চাহিদা আমরা বিশ্বাস করি,  বিশ্বাস এ মিলায় বস্তু তর্কে বহুদূর , আমাদের প্রতিষ্ঠান আপনার অল্প কিছু টাকা মেরে দিয়ে পুরো মুম্বাই শহর কিনবে না, কেনন আমরা আপনার থেকে শুধু মাত্র  এক কালীন ফি গ্রহণ করি প্যাকেজ অনুযায়ী এর পর থেকে প্রত্যেকটা মিটিং শেষে কিছু পার্সেন্ট কেটে নেয়া হয়  সর্ব মোট অংশ থেকে এটা প্যাকেজ অনুযায়ী হিসাব করা হয় , এবং আপনি যদি চান তবে আমরা আপনাকে সরাসরি দেখাবো কিভাবে একটি মিটিং পরিচালনা করা হয় এজন্য আপনাকে গুগল মিট এর মধ্যে আমাদের সাথে কল এ যুক্ত হতে হবে কেননা আমরা আপনাকে আমাদের মোবাইল ফোন এর স্ক্রিন শেয়ার করে দেখাবো আরও তথ্যের জন্য, টেলিগ্রামে আমাদের মেসেজ করুন, আশা করি অন্যদের কাছ থেকে, আমরা প্রতিশ্রুতি দিতে পারি যে আপনি সর্বোত্তম পরিষেবা পারবো</p>
     </div>
-    <button class="FAQ">Why do you have to make advance payments to receive the service for the first time?</button>
-    <div class="panel">
-      <p>We did not have such a rule at first, but we were forced to make such a rule for the year, there are many customers who do not accept appointments according to the date, this causes a huge loss to our organization, because we send their partner to the hotel or guest house according to the appointment date, but the appointment does not have to be in the specific place, the loss has to be saved. That’s why such a system had to be introduced</p>
-    </div>
-    <button class="FAQ">Do i have to make advance payments again to get the service Next time?</button>
-    <div class="panel">
-      <p>Of course not, because a verified profile of you will be created on our system, you will not have to make any advance payment in the next time you take any services, hopefully you understand</p>
-    </div>
-    <button class="FAQ">What is your advance fee or Package fee? Provide a list?</button>
-    <div class="panel">
-      <p>Please check the lists<br> 
+    <button class="Q">প্রশ্ন (৩) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : প্রথমবার কল বয় জব  পেতে হলে আমাকে কি অগ্রিম অর্থ প্রদান করতে হবে?</button>
+    <div class="A">
+      <p>হ্যা সমন্বিত গ্রাহক - আমাদের প্রথমে এমন নিয়ম ছিল না, কিন্তু আমরা  এ বছর এমন নিয়ম করতে বাধ্য হয়েছে আমাদের প্রতিষ্ঠান ,
 
-        In case of advance payment depends<br>  on which package you want to BUY<br> 
+        কোম্পানি প্রতিষ্ঠার প্রথম দিকে কল বয় রেজিস্ট্রেশন ফ্রি ছিল প্রথম অবস্থায় গ্রাহক কে কোন ফী প্রদান করতে হতো না 
         
-        <br> Package Name <BR>
+        কিন্তু সময়ের পরিবর্তে দেখা গেলো আস্তে আস্তে  সকল গার্ল কাস্টমার আমাদের সেবা নেওয়া বন্ধ করে দিলো, পরবর্তী তে প্রতিষ্ঠান একটি সার্ভে করে এবং কিছু সমস্যা খুঁজে বের করা হলো অন্যতম 
+        কল বয় সময় মতো মিটিং এ এটেন্ড না করা
+        মিটিং শেষে এক্সট্রা পেমেন্ট দাবি করা 
+        সভ্য বা ভদ্র আচরণ না করা 
+        ম্যাডাম এর মূল্যায়ন না করা 
+        এবং মিটিং শেষে অঝথায় কল করে বিরক্ত করা অন্যতম 
+        এরপর থেকেই প্রতিষ্ঠান স্বল্প কিছু ফি বা প্যাকেজ এর মাধ্যমে এর মাধ্যমে রেজিস্ট্রেশন কার্যক্রম চালিয়ে যাচ্ছে</p>
+    </div>
+    <button class="Q">প্রশ্ন (৪) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : পরবর্তী তে  পরিষেবা পেতে আমাকে কি আবার অগ্রিম অর্থ প্রদান করতে হবে?</button>
+    <div class="A">
+      <p>অবশ্যই না, কারণ আমাদের সিস্টেমে আপনার একটি ভেরিফাইড প্রোফাইল তৈরি করা হবে,অর্থাৎ আপনাকে একটি ড্যাশবোর্ড প্রদান করা হবে, পরের বার আপনি কোনও পরিষেবা নেওয়ার সময় আপনাকে কোনও অগ্রিম অর্থ প্রদান করতে হবে না, আশা করি আপনি বুঝতে পেরেছেন</p>
+    </div>
+    <button class="Q">প্রশ্ন (৫) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : আপনার অগ্রিম রেজিস্ট্রেশন  ফি বা প্যাকেজ ফি কত? একটি তালিকা প্রদান?</button>
+    <div class="A">
+      <p>তালিকা চেক করুন<br> 
+
+        অগ্রিম পেমেন্ট ক্ষেত্রে নির্ভর করে<br>  আপনি কোন প্যাকেজ কিনতে চান<br> 
+        
+        <br> প্যাকেজের নাম <BR>
         S t a r t e r<br> 
-        1,999.Rs <br>
-        Package Available Only <br> 
-        India Only <br>
+        মূল্য  1,999 রুপি  <br>
+        প্যাকেজ টি শুধুমাত্র<br> 
+        ইন্ডিয়া  <br>
         _____________________
         <br> 
-        Package Name<br> 
+        প্যাকেজের নাম<br> 
         L E G E N D<br> 
-        4,999.Rs</p>
-        Package Available Only <br> 
-        India , Bangladesh , Pakistan
+        মূল্য  3,999 রুপি</p>
+        প্যাকেজ টি শুধুমাত্র <br> 
+        ইন্ডিয়া ,বাংলাদেশ, পাকিস্তান এর জন্য <br> <br> <br>বিঃদ্রঃ সমস্ত ট্রানজেকশন, হিসাব, পেমেন্ট, ক্যালক্লুশন ইন্ডিয়ান রুপি তে করা হয় অতএব আপনার দেশ এর কারেনসির গ্রহণ যোগ্যতা নেই  <br> <br>
     </div>
-    <button class="FAQ">How To Join Club ?</button>
-    <div class="panel">
-      <p>To Join Our Club Playboys India Pvt Ltd You Need To Go Threw These Simple Steps <br>
-        Contact Licences Department Send Join Details<br>
-        Verified Your Details<br>
-        Choose Package<br>
-        And Pay Fees (Company Account)<br>
-        Under 4 To 6 Hours Ready Your License<br>
-        Then 24 To 48 Hours Under Receive Meeting In Your Location<br>
-        Meeting Location Under 10 To 50Km</p>
+    <button class="Q"> প্রশ্ন (৬) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : কিভাবে আমাদের ক্লাবে যোগদান করবেন ?</button>
+    <div class="A">
+      <p>আমাদের ক্লাব প্লেবয় ইন্ডিয়া প্রাইভেট লিমিটেডে যোগ দিতে আপনাকে এই সহজ পদক্ষেপগুলি অনুরণ করতে হবে<br>
+        আমাদের প্রতিষ্ঠা যেসকল তথ্য চেয়ে থাকে সেগুলো ম্যানেজ করুন <br>
+        একটি প্যাকেজ পছন্দ করুন <br>
+        প্যাকেজ বা রেজিস্ট্রেশন ফি প্রদান করুন কোম্পানীৰ একাউন্ট এ (অবশই ফ্রি প্রদান এর পূর্বে কাস্টমার কেয়ার থেকে একাউন্ট নম্বর চেয়ে নিন)<br>
+        তারপর 24 থেকে 48 ঘন্টার মধ্যে আপনার লোকেশনে মিটিং পাবেন<br>
+        10 থেকে 50Km এর মধ্যে মিটিংয়ের অবস্থান</p>
     </div>
-    <button class="FAQ">Can I Become A Call Boy?</button>
-    <div class="panel">
-      <p>Of Course! You Can. Anyone That Has A Good And Appealing Personality Can Become A Gigolo. Do Not Consider Personality As 6 Pack Abs Or Big Biceps. All You Need To Have Is A Decent Appearance</p>
+    <button class="Q"> প্রশ্ন (৭) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : আমি কি কল বয় হতে পারি??</button>
+    <div class="A">
+      <p>অবশ্যই! আপনি পারেন. আপনাকে শুধুমাত্র 18+ বয়স্ক হতে হবে মহিলাদের সাথে কীভাবে আচরণ করতে হয় তা জানতে হবে এবং আপনাকে অর্থের জন্য মহিলাদের সন্তুষ্ট করার ধারণাটি পছন্দ করতে হবে ,একটি ভাল এবং আবেদনময় ব্যক্তিত্ব আছে যে কেউ হতে পারে কল বয় . ব্যক্তিত্বকে 6 প্যাক অ্যাবস বা বিগ বাইসেপ হিসাবে বিবেচনা করবেন না। আপনার যা দরকার তা হল একটি শালীন চেহারা</p>
     </div>
-    <button class="FAQ">What Does A Call Boy Do? </button>
-    <div class="panel">
-      <p>Almost Everyone Considers A Call Boy As A Sex Worker But That’s Not 100% True. Usually, Gigolos Or Call Boys Are Hired For Sexual Requirements But Several Times They Are Also Hired As A Travel Partner, Date Partner, Etc.</p>
+    <button class="Q"> প্রশ্ন (৮) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : একজন কল বয় আসলে কি করে থাকে ? </button>
+    <div class="A">
+      <p>প্রায় সবাই একটি কল বয়কে যৌনকর্মী হিসাবে বিবেচনা করে তবে এটি 100% সত্য নয়। সাধারণত, কল বয়দের যৌন প্রয়োজনের জন্য ভাড়া করা হয় তবে বেশ কয়েকবার তাদের ট্রাভেল পার্টনার, ডেট পার্টনার, ইত্যাদি হিসাবেও নিয়োগ করা হয়।</p>
     </div>
-    <button class="FAQ">How To Detect If A CAll Boy Club Is Real Or Fraud?</button>
-    <div class="panel">
-      <p>First Check Agency Notice Agency Important Notice Any Right Call Boy Club Not Ask Any Register Fees In Personl Account Then Fake Club One Point Any Right Agency Not Call For Join It Is Hard To Say Which CAll boy Club Is Real And Which One Is Fake. If A Gigolo Club Does Not Charge You Anything Upfront Or Charge Just A Small Registration Fee Can Be Given A Try. Stay Away From Call Boy Clubs That Charge A Huge Amount In The Name Of Membership Or Registration Charges.</p>
+    <button class="Q">প্রশ্ন (৯) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : একটি কল বয় ক্লাব আসল না প্রতারণা কিনা তা কীভাবে সনাক্ত করবেন?</button>
+    <div class="A">
+      <p> আপনাকে আগে থেকে কিছু চার্জ না করে বা শুধুমাত্র একটি ছোট রেজিস্ট্রেশন ফি চার্জ করে তবে চেষ্টা করে দেখা যেতে পারে। মেম্বারশিপ বা রেজিস্ট্রেশন চার্জের নামে বিপুল পরিমাণ চার্জ নেওয়া কল বয় ক্লাবগুলি থেকে দূরে থাকুন।</p>
     </div>
-    <button class="FAQ">What Is PlayBoys About And Its Purpose ?</button>
-    <div class="panel">
-      <p>The Purpose Of PlayBoys Is To Connect (Females) Form All Around The World Who Are Looking For Male Companions, With (Male) Form All Around The World Who Want To Satisfy The Needs And Desires Of Such Females. As We Say In Our Motto: Play Boys Is Here For All Those Women Looking For A Male Companion For Any Event.</p>
+    <button class="Q">প্রশ্ন (১০) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : প্লেবয়স সম্পর্কে এবং এর উদ্দেশ্য কী ?</button>
+    <div class="A">
+      <p>প্লেবয়-এর উদ্দেশ্য হল সারা বিশ্ব জুড়ে (মহিলা) ফর্মের সাথে সংযোগ করা যারা পুরুষ সঙ্গী খুঁজছেন, সারা বিশ্ব জুড়ে (পুরুষ) ফর্মের সাথে যারা এই জাতীয় মহিলাদের চাহিদা এবং আকাঙ্ক্ষা পূরণ করতে চান৷ আমরা যেমন আমাদের নীতিবাক্যে বলি: প্লে বয়েজ এখানে সেই সমস্ত মহিলার জন্য যারা যেকোন ইভেন্টের জন্য একজন পুরুষ সঙ্গী খুঁজছেন.</p>
     </div>
-    <button class="FAQ">Can I Become A Call Boy, Play Boy, Male Escort ?    </button>
-    <div class="panel">
-      <p>Yes Of Course ! You Just Have To Be 18+ Older You Need To Know How To Treat Women And You Must Love The Idea Of Satisfying Women For Money
-      </p>
+    <button class="Q">প্রশ্ন (১২) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : কিভাবে আপনাদের পেমেন্ট করবো এবং কাজ শেষে আমার পেমেন্ট পাবো ? </button>
+    <div class="A">
+      <p>আমাদের রেজিস্টার ফী পেমেন্ট করার মাধ্যম গুলো হলো <br>
+        বিকাশ রকেট নগদ <br> <br> বিঃদ্রঃ (ক্যাশ আউট শুধুমাত্র - ক্যাশ আউট ফিস সম্পর্ণ আপনাকে বহন করতে হবে )
+    <br><br>মিটিং শেষে আপনাকে যেভাবে পেমেন্ট করা হবে<br>
+    অনেক সময় কাস্টমার আমাদের অগ্রিম পেমেন্ট করে থাকেন অতএব আমরা আপনাকে পেমেন্ট করব মিটিং সম্পন্ন হলে 
+    অন্যথায় কাস্টমার যদি আমাদের পেমেন্ট না করে থাকে তবে মিটিং শেষে ম্যাডাম আপনাকে আপনার অর্থ বুঝিয়ে দিবেন 
+    ক্যাশ বা অনলাইন পেমেন্ট সিস্টেম এর মাধ্যমে যেমন বিকাশ নগদ রকেট ইত্যাদি এবং পরবর্তী   এ আমাদের কমিশন আমাদের দিতে হবে এটা নির্ভর করে থাকে প্যাকেজ এর উপর<br><br>বিঃদ্রঃ ম্যাডাম যদি আপনাকে কোন এক্সট্রা টিপস বা সম্মানী প্রদান করেন সেখানে আমরা কোন কমিশন গ্রহণ করা হয়না </p>
     </div>
-    <button class="FAQ">Do I Need To Pay Any Fees To Be Registered Here ? </button>
-    <div class="panel">
-      <p>Yes You Have To Pay A Fees For Membership. Why? Here Is The Explanation</p>
+    <button class="Q">প্রশ্ন (১৩) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : কত জন কল বয় আপনাদের প্রতিষ্ঠান এর সাথে সংযুক্ত?</button>
+    <div class="A">
+      <p>ইন্ডিয়া ৩২৪৬ জন +<br>
+        বাংলাদেশ ৭১ জন +<br>
+        পাকিস্তান ৮৫ জন +<br><br>বিঃদ্রঃ রিপোর্ট টি - জানুয়ারি ২০২৩ইং এর </p>
     </div>
-    <button class="FAQ">How Can I Apply For Call Boy Jobs In India ,Bangladesh,Pakistan ?</button>
-    <div class="panel">
-      <p>It Is Very Easy To Apply For Gigolo Jobs In India. All You Need To Do It Register Yourself With Any Male Escort Agency Or Gigolo Club. They Will Contact You If There Is Any Vacancy,</p>
+    <button class="Q">প্রশ্ন (১৪) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : বাংলাদেশ এর কোন কোন শহর এ কল বয় নিয়োগ করছেন? </button>
+    <div class="A">
+      <p>বাংলাদেশ বিভিন্ন শরীর গুলো তে আমরা সেবা প্রদান করে আসছি <br>
+        সেবার প্রদান এর স্থান গুলো চেক করতে  <br><i class="fa-solid fa-bars" style="color: greenyellow;"></i> মেনু  <br><i class="fa-solid fa-bolt" style="color: #d259ec;"></i> আমাদের সেবা   <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i> <br>
+        <i class="fa-solid fa-location-dot" style="color: #fd2ffd;"></i> সেবার স্থান <br> পেইজ এ ভিসিট করুন এবং আপনার লোকেশন টি সার্চ (ইংরেজি তে ) করুন </p>
     </div>
-    <button class="FAQ">How Many Call Boy Clubs In India Are There? </button>
-    <div class="panel">
-      <p>India Is A Big Country. It Is Hard To Tell The Exact Count Of Call Boy Clubs In India. But, Roughly There Will Be Around 20-30 Reputed Call Boy Clubs In India.</p>
+    <button class="Q">প্রশ্ন (১৫) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : ড্যাশবোর্ড কি? </button>
+    <div class="A">
+      <p>ড্যাশবোর্ড মূলত একটি সিআরএম ( কাস্টমার রিলেশনশিপ ম্যানেজমেন্ট ) এটি মূলত আপনার একটি প্রোফাইল,<br> 
+        রেজিস্টর সম্পন্ন হলে আপনাকে একটি ইউনিক ইউজার আইডি ও পাসওয়ার্ড প্রদান করা হবে, <br>
+        যেখানে আপনি লগইন করলে জব হিস্ট্রি দেখতে পারবেন<br> যথাক্রমে পেন্ডিং জব কি কি আছে কাস্টমার এর <br>
+         নাম, ছবি,  কন্টাক্ট নাম্বার,  কোথায় মিটিং ফিক্সেট হয়েছে সেটার লোকেশন,   কত পেমেন্ট পাচ্ছেন  ইত্যাদি <br>
+        আপনি রেজিস্টার এর পূর্বে ডেমো ড্যাশবোর্ড দেখতে চাইলে <a href="/Dashboard/Desk.html">এখানে ক্লিক করুন </a></p>
     </div>
-    <button class="FAQ">How Can Women Seeking Men In India Reach Call Boy?</button>
-    <div class="panel">
-      <p>There Are A Lot Of Ways With Which Women Seeking Men In India Can Find Gigolos Or Call Boys. They May Get Details Via Websites, Forums Or Classified Ads. The Best Way To Find Our website Is To Contact Call Boy</p>
+    <button class="Q">প্রশ্ন (১৬) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : কোম্পানি কমিশন কি পরিভাগে চার্জ করে থাকে </button>
+    <div class="A">
+      <p>কোম্পানি মূলত বিভিন্ন প্যাকেজ এর উপর নির্ভর করে চার্জ করে থাকে 
+
+        যথাক্রমে  <br> S T A R E R 30% <br> L E G E N D  20% <br>আরো বিস্তারিত জানতে প্যাকেজ এর ফিচার গুলো পড়তে পারেন</p>
     </div>
-    <button class="FAQ">Does Our Clubs Charge Any Fees Or Commission For Their Services?</button>
-    <div class="panel">
-      <p>Of Course! They Might Charge You Just Registration Fees Or They Might Charge You Per Service Call . We Charge On A Service Call Basis. </p>
+    <button class="Q">প্রশ্ন (১৭) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> :  আমি কোন রেজিস্টার ফিস প্রদান করবো না আমার প্রথম কাজ  এর পুরো  রেখে দিন?  এটা কি সম্ভব? </button>
+    <div class="A">
+      <p>দুঃখিত এটা কোন ভাবেই সম্ভব নয় প্রয়োজন এ আপনি সময় নিন,  রেজিস্ট্রেশন এর অর্থ যোগান দিন পর রেজিস্ট্রেশন সম্পন্ন করুন <br>আরও বিস্তারিত জানতে প্রশ্ন 	৩ এবং ৪ পড়ুন </p>
     </div>
-    <button class="FAQ">How Does Your Call Boy Club Work? </button>
-    <div class="panel">
-      <p>We Have Mentioned The Complete Process Of The Call Boy Club In <a href="/Register">This Link You Can Go</a> Through It Before Registering Yourself With Us.</p>
-    </div>
-    <button class="FAQ">Why Join Us? </button>
-    <div class="panel">
-      <p>There Are Dozens Of Reasons To Justify Why Our website Is The Best. With More Than 24 Years In The Call Boy Industry, We Have Our Branches In About 80 Cities In India. Having About 93523 Active Call Boy, We Have Served More Than 70000 Customers. These Figures Are Enough To Tell You That Our website Is One Of The Biggest Call Boy Clubs In India. We Operate With Full Secrecy And We Adhere To Our Privacy Policy. We Do Not Share Information About Our Call Boy Or Female Clients With Any Third-Party At Any Cost. Unlike Others FAQ .</p>
-    </div>
+    <button class="Q">প্রশ্ন (১৮) <i class="fa-solid fa-caret-right" style="color: #fb0000;"></i> : আপনারা কী ভাবে গার্ল ক্লাইন্ট গুলো পেয়ে থাকেন?  </button>
+    <div class="A">
+      <p>আমাদের প্রতিষ্ঠান এর ওয়েবসাইট এর মাধ্যম এ সাধারণত ক্লাইন্ট পেয়ে থাকেন, আমাদের ওয়েবসাইট (কল বয় বাড়া করুন) অপশন থেকে তারা মূলত তাদের চাহিদা অনুযায়ী কল বয় ভাড়া করে থাকে </p>
 </div>
 </div>
 </div>
 </div>
 </div>
     <!--  FAQ --> 
-        
+
+
         <!-- Pricing Start -->
         <div class="text-center wow fadeInUp">
             <section id="s4" class="section  ">
                   <div class="text-center">
-                    <h2 style="text-align:center;"><p style="color: #1abc9c ;"><div class="divider"><i class="fa-solid fa-phone-volume fa-shake"></i>Contact</div></p></h2>
-                    <h6 style="text-align:center;"><p style="color: #1abc9c ;"><i class="fa-solid fa-map-location-dot fa-fade"></i> address : 1, Bajrangbali Apt, Opp Municipal Office, Virar,Mumbai</p></h6>
-                    <h6 style="text-align:center;"><p style="color: #1abc9c ;"><i class="fa-regular fa-envelope fa-fade"></i> Gigolosteam@gmail.com</p></h6>
-                    <h6 style="text-align:center;"><p style="color: #1abc9c ;"><i class="fa-brands fa-telegram fa-shake"></i> @iNDiTeam</p></h6>
+                    <h2   style="text-align:center;"><p style="color: #1abc9c ;" ><div class="divider"><i class="fa-solid fa-phone-volume fa-shake"></i>  যোগাযোগ</div></p></h2>
+                    <h6 style="text-align:center;"><p style="color: #1abc9c ;"><i class="fa-solid fa-map-location-dot fa-fade"></i> ঠিকানা : বাজরংবলী এপার্টমেন্ট, 2য় তলা, মুন্সিপাল অফিস এর সামনে, ভিড়ান, মুম্বাই, ইন্ডিয়া </p></h6>
+                    <h6 style="text-align:center;"><p style="color: #1abc9c ;"><i class="fa-regular fa-envelope fa-fade"></i> ইমেইল : Gigolosteam@gmail.com</p></h6>
+                    <h6 style="text-align:center;"><p style="color: #1abc9c ;"><i class="fa-brands fa-telegram fa-shake"></i>টেলিগ্রাম  @iNDiTeam</p></h6>
                 </div>
             </div>
         </div>
@@ -436,10 +289,9 @@
         <body>
         
         <footer>
-     <p><b>© 2021 PlayBoys Pvt Ltd All Right Reserved.</b></p>
+     <p><b>© 2021 PlayBoys Pvt Ltd All Right Reserved. বাংলা </b></p>
         </footer>
     <!-- Footer End -->
-
 
 
 
@@ -453,7 +305,7 @@
     <script src="/lib/waypoints/waypoints.min.js"></script>
     <script src="/lib/counterup/counterup.min.js"></script>
     <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="/js/FAQ.js"></script>
+    <script src="/css/bnFAQ.js"></script>
 
     <!-- Template Javascript -->
     <script src="/js/main.js"></script>
