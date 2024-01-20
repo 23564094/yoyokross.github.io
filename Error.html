@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Not Available</title>
+        <!-- Favicon -->
+        <link href="/img/favicon.png" rel="icon">
+    <style>
+            body {
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #000; /* Set background color to black */
+        }
+
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 100px;
+        }
+
+        h1 {
+            color: #ff0000;
+        }
+
+        p {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <video autoplay loop muted>
+        <!-- Update the video source URL to your own video file -->
+        <source src="https://background-video.cdn-playboy.pages.dev/BG.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="content">
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="#ff0000">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+        </svg>
+
+        <h1>Service unavailable</h1>
+
+        <p>Please Pon't use VPN or Proxy. <br>If anything is Active,<br> Please Disable it first.</p>
+
+        <p id="visitor-info"></p>
+
+        <script>
+            // Function to fetch visitor information
+            async function fetchVisitorInfo() {
+                try {
+                    // Make a request to ipinfo.io API to get visitor information
+                    const response = await fetch('https://ipinfo.io/json');
+                    const data = await response.json();
+
+                    // Display country and city information
+                    document.getElementById('visitor-info').innerText = `Visitor from ${data.country}, ${data.city}`;
+                } catch (error) {
+                    console.error('Error fetching visitor information:', error);
+                }
+            }
+
+            // Call the function when the page loads
+            window.onload = fetchVisitorInfo;
+        </script>
+<script>
+
+    const BD = '/index.html';
+    const IN = '/index.html';
+    const PK = '/index.html';
+    
+    fetch("https://ipinfo.io/json").then((res) => {
+    res.json().then((data) => {
+    if(data.country === "PK"){
+    if(window.location.href!=PK){
+    window.location.href = PK;
+    }
+        } else if(data.country === "BD") {
+    if(window.location.href!=BD){
+    window.location.href = BD;
+    }
+    } else if(data.country === "IN") {
+    if(window.location.href!=IN){
+    window.location.href = IN;
+    }
+    
+    }
+    });
+    });
+    </script>
+    
+    </div>
+
+</body>
+</html>
